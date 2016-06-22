@@ -1,0 +1,22 @@
+#header {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background: yellow;
+
+  >div {
+    width: $sample-width;
+    height: 100%;
+    margin: 0 auto;
+    background: #0086b3;
+
+    nav ul {
+      list-style: none;
+
+      li {
+        float: left;
+        width: 100px;
+      }
+    }
+  }
+}

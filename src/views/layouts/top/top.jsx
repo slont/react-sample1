@@ -9,14 +9,12 @@ class Top extends React.Component {
             <h1>Top</h1>
           </div>
           <ul>
-            <li><a href="http://localhost:3000/page1/">Page1</a></li>
-            <li><a href="http://localhost:3000/page2/">Page2</a></li>
+            <li><a href="page1">Page1</a></li>
+            <li><a href="page2">Page2</a></li>
           </ul>
         </div>
     )
   }
 }
 
-ReactDOM.render(
-    <Top />, document.getElementById('container')
-);
+ReactDOM.render(<Top />, document.getElementById('container'));

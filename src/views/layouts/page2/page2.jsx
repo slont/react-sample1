@@ -9,8 +9,8 @@ class Page2 extends React.Component {
             <h1>Page2</h1>
           </div>
           <ul>
-            <li><a href="http://localhost:3000/top/">Top</a></li>
-            <li><a href="http://localhost:3000/page1/">Page1</a></li>
+            <li><a href="/top/">Top</a></li>
+            <li><a href="/page1/">Page1</a></li>
           </ul>
         </div>
     )
